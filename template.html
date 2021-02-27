@@ -174,7 +174,7 @@
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
         if (decryptedHMAC !== encryptedHMAC) {
-            alert('Oh oh! Falsches Passwort!');
+            alert('Oh oh! Die Sache mit dem Passwort. – War natürlich eine ungünstige Schriftart, die wir uns da ausgesucht haben! Vorne "l" und hinten "1", dann macht das Passwort auch halbwegs Sinn ;-)');
             return;
         }
 
