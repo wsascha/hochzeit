@@ -1,0 +1,31 @@
+{
+  "name": "hochzeit",
+  "version": "1.0.1",
+  "description": "Unsere Hochzeits-Website.",
+  "main": "npmfile.js",
+  "scripts": {
+    "test": "echo \"Error: No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsascha/hochzeit.git"
+  },
+  "keywords": [],
+  "author": "wsascha",
+  "license": "GPL-3.0",
+  "homepage": "https://wsascha.github.io/hochzeit",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "font-awesome": "^4.7.0",
+    "make-error-cause": "^2.3.0",
+    "staticrypt": "^1.3.2",
+    "waypoints": "^4.0.1"
+  }
+}
